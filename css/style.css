@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(http://imgfz.com/i/NUT8gWG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Head{
+    background: #dedcdc89;
+    backdrop-filter: blur(0.7rem);
+    text-align: center;
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+}
+.Inicio{
+    padding: 20px;
+    align-items: center;
+    color: #000000;
+    background: #002fffae;
+    backdrop-filter: blur(0.7rem);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.Inicio a{
+    text-decoration: none;
+    color: #ffffff92;
+}
+.Inicio img{
+    width: 50px;
+    align-items: center;
+    border-radius: 500px;
+}
+.redes a{
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+.redes img{
+    width: 30px;
+    margin-right: 5px;
+}
+.border{
+    border-radius: 8px;
+}
+.redes li{
+    list-style: none;
+    padding: 10px;
+    background: #ffff;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.Parrafo{
+    margin-right: 50%;
+    padding: 10px;
+}
+.parrafo{
+    font-size: 20px;
+    margin: 20px;
+}
+.redes ul{
+    padding: 10px;
+}
+.redes a{
+    position: relative;
+    bottom: 8px;
+    margin-left: 5px;
+}
+.top a{
+    position: relative;
+    bottom: -1px;
+}
